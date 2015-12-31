@@ -1,0 +1,593 @@
+<root>
+    <item name='kotlin.PropertyMetadata java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Range T getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Progression java.util.Iterator&lt;N&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.LongProgression.Companion kotlin.LongProgression fromClosedRange(long, long, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Range T getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.Character getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Byte getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Integer getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Short getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Comparable getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.lang.Number getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Unit java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Progression N getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Comparable getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.BooleanIterator java.lang.Boolean next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.Character getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.lang.Number getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression kotlin.CharIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.Comparable getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange T getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.DeprecationLevel ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression kotlin.LongIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange T getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.lang.Short getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Integer getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange.DefaultImpls boolean isEmpty(kotlin.ClosedRange&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Long getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntegerConstants T getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.LongRange boolean contains(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Progression N getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange.Companion kotlin.ByteRange getEMPTY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange T getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange.DefaultImpls boolean contains(kotlin.ClosedRange&lt;T&gt;, T) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.lang.Short getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange boolean contains(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.lang.Integer getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression kotlin.ByteIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression.Companion kotlin.CharProgression fromClosedRange(char, char, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.lang.Integer getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.FloatingPointConstants T getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.ByteProgression java.lang.Number getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.lang.Character getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.FloatIterator java.lang.Float next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Comparable getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl PropertyMetadataImpl(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Comparable getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Comparable getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.FloatingPointConstants T getPOSITIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.ClosedRange.DefaultImpls boolean contains(kotlin.ClosedRange&lt;T&gt;, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.lang.Character getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Integer getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.String, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Comparable getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.DeprecationLevel WARNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.FloatingPointConstants T getNEGATIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.ShortProgression.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Comparable getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.lang.Long getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.lang.Long getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange boolean contains(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.Comparable getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl kotlin.PropertyMetadataImpl copy$default(kotlin.PropertyMetadataImpl, java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteIterator java.lang.Byte next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.FloatIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.String, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange.DefaultImpls T getEnd(kotlin.ClosedRange&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange.Companion kotlin.CharRange getEMPTY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.FloatingPointConstants T getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.ByteProgression java.lang.Byte getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharIterator java.lang.Character next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortIterator java.lang.Short next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression java.lang.Integer getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.DoubleIterator java.lang.Double next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Range.DefaultImpls boolean isEmpty(kotlin.Range&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Comparable getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange boolean contains(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange.DefaultImpls T getEnd(kotlin.ClosedRange&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression.Companion kotlin.ByteProgression fromClosedRange(byte, byte, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntegerConstants T getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.ShortRange.Companion kotlin.ShortRange getEMPTY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Long getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression.Companion kotlin.IntProgression fromClosedRange(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange java.lang.Long getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange.Companion kotlin.IntRange getEMPTY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl kotlin.PropertyMetadataImpl copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.lang.Number getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression java.lang.Byte getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongIterator java.lang.Long next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression java.lang.Integer getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Short getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongRange.Companion kotlin.LongRange getEMPTY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Progression java.lang.Number getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl java.lang.String component1()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl kotlin.PropertyMetadataImpl copy(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Comparable getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.Character getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Byte getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression.Companion kotlin.ShortProgression fromClosedRange(short, short, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ClosedRange boolean contains(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntRange Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.FloatingPointConstants T getNaN()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.CharRange java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression kotlin.IntIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.lang.Integer getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Comparable getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange java.lang.Short getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange java.lang.Comparable getEndInclusive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl kotlin.PropertyMetadataImpl copy$default(kotlin.PropertyMetadataImpl, java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Comparable getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Unit INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharRange boolean contains(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Comparable getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.DoubleIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntIterator java.lang.Integer next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.DeprecationLevel HIDDEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Range boolean contains(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortRange EMPTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.lang.Object getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ShortProgression kotlin.ShortIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.BooleanIterator java.lang.Object next()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteRange java.lang.Byte getStart()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Unit INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.LongProgression java.lang.Long getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.ByteProgression java.lang.Object getEnd()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.CharProgression java.lang.Integer getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.PropertyMetadataImpl kotlin.PropertyMetadataImpl copy$default(kotlin.PropertyMetadataImpl, java.lang.String, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.IntProgression java.lang.Number getIncrement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

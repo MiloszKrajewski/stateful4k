@@ -1,0 +1,14 @@
+<root>
+    <item name='kotlin.jvm.ClassMapping java.lang.Class&lt;T&gt; getJava(kotlin.reflect.KClass&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.ClassMapping kotlin.reflect.KClass&lt;T&gt; getKotlin(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.ClassMapping java.lang.Class&lt;T&gt; getJava(kotlin.reflect.KClass&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.IsArrayOfKt boolean isArrayOf(java.lang.Object[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

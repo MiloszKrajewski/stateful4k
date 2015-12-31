@@ -1,0 +1,209 @@
+<root>
+    <item name='kotlin.properties.FixedMapVar FixedMapVar(java.util.Map&lt;? super K,java.lang.Object&gt;, kotlin.jvm.functions.Function1&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super T,? super K,? extends V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar K key(kotlin.reflect.KProperty&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar FixedMapVar(java.util.Map, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function2, int, kotlin.jvm.internal.DefaultConstructorMarker) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapAccessorsKt V1 getValue(java.util.Map&lt;? super java.lang.String,? extends V&gt;, java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ObservableProperty T getValue(java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ReadWriteProperty void setValue(R, kotlin.reflect.KProperty&lt;?&gt;, T) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.properties.Delegates INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal FixedMapVal(java.util.Map, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function2, int, kotlin.jvm.internal.DefaultConstructorMarker) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapAccessorsKt void setValue(java.util.Map&lt;? super java.lang.String,? super V&gt;, java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;, V) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ReadWriteProperty T getValue(R, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates.observable.1 void afterChange(kotlin.reflect.KProperty&lt;?&gt;, T, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal FixedMapVal(java.util.Map&lt;? super K,? extends java.lang.Object&gt;, kotlin.jvm.functions.Function1&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super T,? super K,? extends V&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal K key(kotlin.reflect.KProperty&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapAccessorsKt V getVar(java.util.Map&lt;? super java.lang.String,? super V&gt;, java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVal K key(kotlin.reflect.KProperty&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVar void setValue(T, kotlin.reflect.KProperty&lt;?&gt;, V) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.properties.ReadOnlyProperty T getValue(R, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.DelegationKt kotlin.jvm.functions.Function1 access$getPropertyNameSelector$p()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.DelegationKt kotlin.jvm.functions.Function2 access$getThrowKeyNotFound$p()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadOnlyProperty&lt;java.lang.Object,T&gt; mapVal(java.util.Map&lt;? super java.lang.String,? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ObservableProperty void setValue(java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;, T) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; observable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar FixedMapVar(java.util.Map&lt;? super K,java.lang.Object&gt;, kotlin.jvm.functions.Function1&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super T,? super K,? extends V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar FixedMapVar(java.util.Map, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function2, int, kotlin.jvm.internal.DefaultConstructorMarker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; notNull()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.NotNullVar void setValue(java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;, T) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal FixedMapVal(java.util.Map, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function2, int, kotlin.jvm.internal.DefaultConstructorMarker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar V default(T, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadOnlyProperty&lt;R,T&gt; mapVal(java.util.Map&lt;? super java.lang.String,? extends java.lang.Object&gt;, kotlin.jvm.functions.Function2&lt;? super R,? super java.lang.String,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadOnlyProperty&lt;R,T&gt; mapVal(java.util.Map&lt;? super java.lang.String,? extends java.lang.Object&gt;, kotlin.jvm.functions.Function2&lt;? super R,? super java.lang.String,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal V default(T, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVar void setValue(T, kotlin.reflect.KProperty&lt;?&gt;, V) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;R,T&gt; mapVar(java.util.Map&lt;? super java.lang.String,java.lang.Object&gt;, kotlin.jvm.functions.Function2&lt;? super R,? super java.lang.String,? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVal V default(T, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal java.util.Map&lt;? super K,java.lang.Object&gt; map(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ObservableProperty void setValue(java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;, T) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.properties.MapAccessorsKt V1 getValue(java.util.Map&lt;? super java.lang.String,? extends V&gt;, java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar FixedMapVar(java.util.Map&lt;? super K,java.lang.Object&gt;, kotlin.jvm.functions.Function1&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super T,? super K,? extends V&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.NotNullVar void setValue(java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;, T) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; vetoable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapAccessorsKt void setValue(java.util.Map&lt;? super java.lang.String,? super V&gt;, java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; mapVar(java.util.Map&lt;? super java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadOnlyProperty&lt;R,T&gt; mapVal(java.util.Map&lt;? super java.lang.String,? extends java.lang.Object&gt;, kotlin.jvm.functions.Function2&lt;? super R,? super java.lang.String,? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal FixedMapVal(java.util.Map&lt;? super K,? extends java.lang.Object&gt;, kotlin.jvm.functions.Function1&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super T,? super K,? extends V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;R,T&gt; mapVar(java.util.Map&lt;? super java.lang.String,java.lang.Object&gt;, kotlin.jvm.functions.Function2&lt;? super R,? super java.lang.String,? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadOnlyProperty&lt;java.lang.Object,T&gt; mapVal(java.util.Map&lt;? super java.lang.String,? extends java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;R,T&gt; mapVar(java.util.Map&lt;? super java.lang.String,java.lang.Object&gt;, kotlin.jvm.functions.Function2&lt;? super R,? super java.lang.String,? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapAccessorsKt V getVar(java.util.Map&lt;? super java.lang.String,? super V&gt;, java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal FixedMapVal(java.util.Map, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function2, int, kotlin.jvm.internal.DefaultConstructorMarker) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; observable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,? extends kotlin.Unit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.NotNullVar T getValue(java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.NotNullVar T getValue(java.lang.Object, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; mapVar(java.util.Map&lt;? super java.lang.String,java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar FixedMapVar(java.util.Map, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function2, int, kotlin.jvm.internal.DefaultConstructorMarker) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ReadWriteProperty void setValue(R, kotlin.reflect.KProperty&lt;?&gt;, T) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVal java.util.Map&lt;? super K,java.lang.Object&gt; map(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVal V getValue(T, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVar V getValue(T, kotlin.reflect.KProperty&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVal FixedMapVal(java.util.Map&lt;? super K,? extends java.lang.Object&gt;, kotlin.jvm.functions.Function1&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? extends K&gt;, kotlin.jvm.functions.Function2&lt;? super T,? super K,? extends V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates kotlin.properties.ReadWriteProperty&lt;java.lang.Object,T&gt; vetoable(T, kotlin.jvm.functions.Function3&lt;? super kotlin.reflect.KProperty&lt;?&gt;,? super T,? super T,? extends java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ObservableProperty boolean beforeChange(kotlin.reflect.KProperty&lt;?&gt;, T, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.MapVar java.util.Map&lt;? super K,java.lang.Object&gt; map(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.FixedMapVar java.util.Map&lt;? super K,java.lang.Object&gt; map(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.ObservableProperty void afterChange(kotlin.reflect.KProperty&lt;?&gt;, T, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.properties.Delegates.vetoable.1 boolean beforeChange(kotlin.reflect.KProperty&lt;?&gt;, T, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

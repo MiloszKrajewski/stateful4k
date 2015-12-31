@@ -1,0 +1,125 @@
+<root>
+    <item name='kotlin.test.Asserter.DefaultImpls void assertTrue(kotlin.test.Asserter, java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T failsWith(java.lang.Class&lt;T&gt;, kotlin.jvm.functions.Function0&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertTrue(java.lang.String, kotlin.jvm.functions.Function0&lt;? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.Asserter.DefaultImpls void assertNotNull(kotlin.test.Asserter, java.lang.String, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void setAsserter(kotlin.test.Asserter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.Asserter.DefaultImpls void assertNotEquals(kotlin.test.Asserter, java.lang.String, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void expect(T, kotlin.jvm.functions.Function0&lt;? extends T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void todo(kotlin.jvm.functions.Function0&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.Asserter.DefaultImpls void assertNull(kotlin.test.Asserter, java.lang.String, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.Class&lt;T&gt;, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertNotNull$default(java.lang.Object, java.lang.String, kotlin.jvm.functions.Function1, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.Class&lt;T&gt;, java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt java.lang.Throwable fails(kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertNot(java.lang.String, kotlin.jvm.functions.Function0&lt;? extends java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T failsWith(java.lang.Class&lt;T&gt;, kotlin.jvm.functions.Function0&lt;? extends java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt java.lang.Throwable assertFailsWith$default(kotlin.reflect.KClass, java.lang.String, kotlin.jvm.functions.Function0, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(kotlin.reflect.KClass&lt;T&gt;, java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt java.lang.Throwable assertFailsWith$default(kotlin.reflect.KClass, java.lang.String, kotlin.jvm.functions.Function0, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(kotlin.reflect.KClass&lt;T&gt;, java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T failsWith(java.lang.Class&lt;T&gt;, kotlin.jvm.functions.Function0&lt;? extends java.lang.Object&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertNotNull(T, java.lang.String, kotlin.jvm.functions.Function1&lt;? super T,? extends R&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.Asserter void assertTrue(kotlin.jvm.functions.Function0&lt;? extends java.lang.String&gt;, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt java.lang.Throwable assertFailsWith$default(kotlin.reflect.KClass, java.lang.String, kotlin.jvm.functions.Function0, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(kotlin.reflect.KClass&lt;T&gt;, java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertFalse$default(java.lang.String, kotlin.jvm.functions.Function0, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt java.lang.Throwable assertFails(kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.Class&lt;T&gt;, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.Asserter.DefaultImpls void assertEquals(kotlin.test.Asserter, java.lang.String, java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertFalse(java.lang.String, kotlin.jvm.functions.Function0&lt;? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.Asserter.DefaultImpls void assertTrue(kotlin.test.Asserter, kotlin.jvm.functions.Function0&lt;? extends java.lang.String&gt;, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertNot(kotlin.jvm.functions.Function0&lt;? extends java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.DefaultAsserter void assertTrue(kotlin.jvm.functions.Function0&lt;? extends java.lang.String&gt;, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.Class&lt;T&gt;, java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertNot(java.lang.String, kotlin.jvm.functions.Function0&lt;? extends java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void expect(T, java.lang.String, kotlin.jvm.functions.Function0&lt;? extends T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.Class&lt;T&gt;, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt void assertTrue$default(java.lang.String, kotlin.jvm.functions.Function0, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.test.TestAssertionsKt T assertFailsWith(java.lang.Class&lt;T&gt;, java.lang.String, kotlin.jvm.functions.Function0&lt;? extends kotlin.Unit&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

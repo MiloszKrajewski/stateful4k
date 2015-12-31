@@ -1,0 +1,8 @@
+<root>
+    <item name='kotlin.jvm.internal.unsafe.MonitorKt void monitorEnter(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.unsafe.MonitorKt void monitorExit(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

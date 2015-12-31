@@ -1,0 +1,296 @@
+<root>
+    <item name='kotlin.text.Regex java.util.List split$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.regex.Matcher matcher(java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult MatcherMatchResult(java.util.regex.Matcher, java.lang.CharSequence) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence&lt;kotlin.text.MatchResult&gt; findAll(java.lang.CharSequence, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.IntRange access$range(java.util.regex.MatchResult, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.IntRange access$range(java.util.regex.MatchResult)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.text.MatchGroup copy(java.lang.String, kotlin.IntRange) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replace(java.lang.CharSequence, kotlin.jvm.functions.Function1&lt;? super kotlin.text.MatchResult,? extends java.lang.CharSequence&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.text.MatchGroup copy$default(kotlin.text.MatchGroup, java.lang.String, kotlin.IntRange, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchResult java.lang.String getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion kotlin.text.Regex fromLiteral(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.text.MatchResult access$findNext(java.util.regex.Matcher, int, java.lang.CharSequence) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexOption CANON_EQ'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult kotlin.IntRange getRange()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt int access$toInt(java.lang.Iterable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence findAll$default(kotlin.text.Regex, java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String getPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup MatchGroup(java.lang.String, kotlin.IntRange) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replace(java.lang.CharSequence, kotlin.jvm.functions.Function1&lt;? super kotlin.text.MatchResult,? extends java.lang.CharSequence&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.text.MatchGroup copy$default(kotlin.text.MatchGroup, java.lang.String, kotlin.IntRange, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replace(java.lang.CharSequence, kotlin.jvm.functions.Function1&lt;? super kotlin.text.MatchResult,? extends java.lang.CharSequence&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexOption LITERAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex Regex(java.lang.String, java.util.Set&lt;? extends kotlin.text.RegexOption&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replaceFirst(java.lang.CharSequence, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.text.MatchResult find(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.IntRange access$range(java.util.regex.MatchResult, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.IntRange getRange()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex boolean hasMatch(java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.text.MatchResult find$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion java.lang.String escape(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence matchAll$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.text.MatchGroup copy$default(kotlin.text.MatchGroup, java.lang.String, kotlin.IntRange, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult kotlin.text.MatchGroupCollection getGroups()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.List split$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult MatcherMatchResult(java.util.regex.Matcher, java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence matchAll$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence&lt;kotlin.text.MatchResult&gt; findAll(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion java.lang.String escapeReplacement(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.text.MatchResult find$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexOption IGNORE_CASE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex Regex(java.lang.String, kotlin.text.RegexOption) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.text.MatchGroup copy$default(kotlin.text.MatchGroup, java.lang.String, kotlin.IntRange, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.text.MatchGroup copy(java.lang.String, kotlin.IntRange)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.IntRange component2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.regex.Pattern toPattern()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroupCollection java.util.Iterator&lt;kotlin.text.MatchGroup&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult java.lang.String getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.Set&lt;kotlin.text.RegexOption&gt; getOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence&lt;kotlin.text.MatchResult&gt; matchAll(java.lang.CharSequence, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.text.MatchResult access$matchEntire(java.util.regex.Matcher, java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex Regex(java.lang.String, kotlin.text.RegexOption) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replace(java.lang.CharSequence, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.List&lt;java.lang.String&gt; split(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence&lt;kotlin.text.MatchResult&gt; matchAll(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchResult kotlin.text.MatchGroupCollection getGroups()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex Regex(java.lang.String, java.util.Set&lt;? extends kotlin.text.RegexOption&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt java.util.Set access$fromInt(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex Regex(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex boolean containsMatchIn(java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.text.MatchResult access$matchEntire(java.util.regex.Matcher, java.lang.CharSequence) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.text.MatchResult matchEntire(java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.text.MatchResult match(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult.groups.1 boolean containsAll(java.util.Collection&lt;? extends java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replace(java.lang.CharSequence, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.IntRange access$range(java.util.regex.MatchResult) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexOption UNIX_LINES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult java.util.regex.MatchResult access$getMatchResult$p(kotlin.text.MatcherMatchResult) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.List&lt;java.lang.String&gt; split(java.lang.CharSequence, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion int access$ensureUnicodeCase(kotlin.text.Regex.Companion, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.List split$default(kotlin.text.Regex, java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence findAll$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex Regex(java.util.regex.Pattern) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replaceFirst(java.lang.CharSequence, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexOption MULTILINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexOption COMMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup MatchGroup(java.lang.String, kotlin.IntRange) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion kotlin.text.Regex fromLiteral(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.text.MatchResult match$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexJVMKt kotlin.text.MatchResult access$findNext(java.util.regex.Matcher, int, java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.util.regex.Matcher matcher(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup java.lang.String getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replace(java.lang.CharSequence, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion java.lang.String escape(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchResult kotlin.IntRange getRange()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex java.lang.String replaceFirst(java.lang.CharSequence, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence findAll$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup kotlin.text.MatchGroup copy(java.lang.String, kotlin.IntRange) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatcherMatchResult.groups.1 java.util.Iterator&lt;kotlin.text.MatchGroup&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.text.MatchResult match$default(kotlin.text.Regex, java.lang.CharSequence, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.MatchGroup java.lang.String component1()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex.Companion java.lang.String escapeReplacement(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex boolean matches(java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.Regex kotlin.Sequence matchAll$default(kotlin.text.Regex, java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.text.RegexOption DOT_MATCHES_ALL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

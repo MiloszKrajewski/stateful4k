@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Maven: org.jetbrains.kotlin:kotlin-runtime:1.0.0-beta-3594">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/annotations/Maven_ org.jetbrains.kotlin_kotlin-runtime_1.0.0-beta-3594" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-runtime/1.0.0-beta-3594/kotlin-runtime-1.0.0-beta-3594.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-runtime/1.0.0-beta-3594/kotlin-runtime-1.0.0-beta-3594-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-runtime/1.0.0-beta-3594/kotlin-runtime-1.0.0-beta-3594-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

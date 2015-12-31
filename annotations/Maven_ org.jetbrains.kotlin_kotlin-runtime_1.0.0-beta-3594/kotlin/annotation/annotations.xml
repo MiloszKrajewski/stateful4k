@@ -1,0 +1,53 @@
+<root>
+    <item name='kotlin.annotation.AnnotationTarget FIELD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget TYPE_PARAMETER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget FUNCTION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationRetention RUNTIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget PROPERTY_SETTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget PROPERTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget ANNOTATION_CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget VALUE_PARAMETER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget EXPRESSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationRetention BINARY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget CONSTRUCTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget LOCAL_VARIABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget CLASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget PROPERTY_GETTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationRetention SOURCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.annotation.AnnotationTarget FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

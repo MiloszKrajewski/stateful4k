@@ -1,0 +1,509 @@
+<root>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.DoubleIterator iterator(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayBooleanIterator ArrayBooleanIterator(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.MutablePropertyReference1 kotlin.reflect.KMutableProperty.Setter getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Object getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PrimitiveSpreadBuilder T toArray(T, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassReference java.util.Collection&lt;kotlin.reflect.KClass&lt;?&gt;&gt; getNestedClasses()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CharSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.BooleanSpreadBuilder int getSize(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Double getPOSITIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassReference java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.MutablePropertyReference0 kotlin.reflect.KMutableProperty.Setter getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortCompanionObject java.lang.Object getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.BooleanIterator iterator(boolean[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.CharIterator iterator(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.EnumCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIntIterator ArrayIntIterator(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkHasClass(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntCompanionObject java.lang.Object getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CollectionToArray T[] toArray(java.util.Collection&lt;E&gt;, T[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CharSpreadBuilder int getSize(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntCompanionObject java.lang.Integer getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.StringCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.FloatIterator iterator(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Object getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.StringCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkExpressionValueIsNotNull(java.lang.Object, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.BooleanSpreadBuilder boolean[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass createKotlinClass(java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Object getNEGATIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayByteIterator ArrayByteIterator(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CharCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntCompanionObject java.lang.Integer getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass createKotlinClass(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass createKotlinClass(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CharCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Float getPOSITIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkFieldIsNotNull(java.lang.Object, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Object getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteCompanionObject java.lang.Object getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PropertyReference2 kotlin.reflect.KProperty2.Getter getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongCompanionObject java.lang.Long getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Float getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorKt java.util.Iterator&lt;T&gt; iterator(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortCompanionObject java.lang.Object getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassReference ClassReference(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Object getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Double getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CollectionToArray java.lang.Object[] toArray(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CallableReference java.lang.Object callBy(java.util.Map) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatSpreadBuilder int getSize(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CallableReference kotlin.reflect.KType getReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CallableReference java.lang.Object call(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Double getNEGATIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PrimitiveSpreadBuilder T toArray(T, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntSpreadBuilder int[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass createKotlinClass(java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.EnumCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Object getNaN()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayFloatIterator ArrayFloatIterator(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Object getNEGATIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Lambda java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Float getNEGATIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass[] getOrCreateKotlinClasses(java.lang.Class[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.FloatIterator iterator(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.ShortIterator iterator(short[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PropertyReference0 kotlin.reflect.KProperty0.Getter getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleSpreadBuilder int getSize(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongSpreadBuilder int getSize(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.LongIterator iterator(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.IntIterator iterator(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.MutablePropertyReference2 kotlin.reflect.KMutableProperty2.Setter getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkNotNullExpressionValue(java.lang.Object, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayLongIterator ArrayLongIterator(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.CharIterator iterator(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PropertyReference0 kotlin.reflect.KProperty.Getter getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Double getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass createKotlinClass(java.lang.Class, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortSpreadBuilder short[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.IntIterator iterator(int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Object getPOSITIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassReference java.lang.Class&lt;?&gt; getJClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongCompanionObject java.lang.Object getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteSpreadBuilder int getSize(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Float getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass createKotlinClass(java.lang.Class, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIterator T[] getArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PropertyReference1 kotlin.reflect.KProperty.Getter getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortSpreadBuilder int getSize(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.ByteIterator iterator(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassReference java.util.Collection&lt;kotlin.reflect.KFunction&lt;? extends java.lang.Object&gt;&gt; getConstructors()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongCompanionObject java.lang.Object getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkHasClass(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIterator ArrayIterator(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FunctionReference java.lang.Object call(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteCompanionObject java.lang.Object getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.LongIterator iterator(long[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CallableReference java.util.List&lt;kotlin.reflect.KParameter&gt; getParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntCompanionObject java.lang.Object getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkFieldIsNotNull(java.lang.Object, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkReturnedValueIsNotNull(java.lang.Object, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkReturnedValueIsNotNull(java.lang.Object, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.BooleanIterator iterator(boolean[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Object getPOSITIVE_INFINITY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatCompanionObject java.lang.Float getNaN()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongCompanionObject java.lang.Long getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.MutablePropertyReference0 kotlin.reflect.KMutableProperty0.Setter getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassReference java.util.List&lt;java.lang.annotation.Annotation&gt; getAnnotations()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PropertyReference2 kotlin.reflect.KProperty.Getter getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Object getNaN()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CollectionToArray T[] toArray(java.util.Collection&lt;E&gt;, T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleSpreadBuilder double[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongSpreadBuilder long[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayDoubleIterator ArrayDoubleIterator(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PrimitiveSpreadBuilder int getSize(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='kotlin.jvm.internal.FunctionReference java.lang.Object callBy(java.util.Map) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.ByteIterator iterator(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntSpreadBuilder int getSize(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.FloatSpreadBuilder float[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass createKotlinClass(java.lang.Class, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.DoubleIterator iterator(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassReference java.util.Collection&lt;kotlin.reflect.KCallable&lt;?&gt;&gt; getMembers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayShortIterator ArrayShortIterator(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.CharSpreadBuilder char[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ReflectionFactory kotlin.reflect.KClass createKotlinClass(java.lang.Class, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.LongSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.BooleanSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.MutablePropertyReference1 kotlin.reflect.KMutableProperty1.Setter getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteSpreadBuilder byte[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntSpreadBuilder int getSize(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorsKt kotlin.ShortIterator iterator(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.DoubleCompanionObject java.lang.Double getNaN()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PrimitiveSpreadBuilder T toArray(T, T) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Reflection kotlin.reflect.KClass[] getOrCreateKotlinClasses(java.lang.Class[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PropertyReference1 kotlin.reflect.KProperty1.Getter getGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortCompanionObject java.lang.Short getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.MutablePropertyReference2 kotlin.reflect.KMutableProperty.Setter getSetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteCompanionObject java.lang.Byte getMAX_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayIteratorKt java.util.Iterator&lt;T&gt; iterator(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntCompanionObject INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ArrayCharIterator ArrayCharIterator(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.Intrinsics void checkNotNullParameter(java.lang.Object, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.PrimitiveSpreadBuilder void addSpread(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.IntCompanionObject INSTANCE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ByteCompanionObject java.lang.Byte getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ShortCompanionObject java.lang.Short getMIN_VALUE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.jvm.internal.ClassBasedDeclarationContainer java.lang.Class&lt;?&gt; getJClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

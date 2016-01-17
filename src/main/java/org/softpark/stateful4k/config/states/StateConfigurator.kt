@@ -21,17 +21,17 @@ internal class StateConfigurator<C, S, E, AS : S>(
         return this
     }
 
-    override fun enter(action: (IStateContext<C, AS>) -> Unit): IStateConfigurator<C, S, E, AS> {
+    override fun enter(action: IStateContext<C, AS>.() -> Unit): IStateConfigurator<C, S, E, AS> {
         if (configuration.onEnter != null)
             throw UnsupportedOperationException("$textId.enter(...) has been already defined")
-        configuration.onEnter = { c, s -> action(StateContext(c, stateType.cast(s))) }
+        configuration.onEnter = { c, s -> StateContext(c, stateType.cast(s)).action() }
         return this
     }
 
-    override fun exit(action: (IStateContext<C, AS>) -> Unit): IStateConfigurator<C, S, E, AS> {
+    override fun exit(action: IStateContext<C, AS>.() -> Unit): IStateConfigurator<C, S, E, AS> {
         if (configuration.onExit != null)
             throw UnsupportedOperationException("$textId.exit(...) has been already defined")
-        configuration.onExit = { c, s -> action(StateContext(c, stateType.cast(s))) }
+        configuration.onExit = { c, s -> StateContext(c, stateType.cast(s)).action() }
         return this
     }
 

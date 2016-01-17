@@ -1,37 +1,15 @@
 package org.softpark.stateful4k
 
-import org.softpark.stateful4k.action.IExecutor
 import org.softpark.stateful4k.extensions.createExecutor
 import org.softpark.stateful4k.extensions.event
 
-interface Emitter {
-    fun sound(sound: String)
+class ConsoleEmitter : Emitter {
+    override fun sound(sound: String) = println(sound)
 }
 
-open class DoorState(locked: Boolean) {
-    private var _locked = locked
-    val locked: Boolean get() = _locked
+fun quickDemo() {
 
-    fun lock() {
-        _locked = true
-    }
-
-    fun unlock() {
-        _locked = false
-    }
-}
-
-class DoorClosed(locked: Boolean): DoorState(locked) {}
-class DoorOpened(locked: Boolean): DoorState(locked) {}
-
-interface DoorEvent
-class LockEvent: DoorEvent
-class UnlockEvent: DoorEvent
-class CloseEvent: DoorEvent
-class OpenEvent: DoorEvent
-
-open class DoorStateMachine {
-    val config = StateMachine
+    val configurator = StateMachine
             .createConfigurator<Emitter, DoorState, DoorEvent>()
             .apply {
                 event(DoorState::class, UnlockEvent::class)
@@ -55,8 +33,7 @@ open class DoorStateMachine {
 
                 event(DoorState::class, DoorEvent::class).loop()
             }
+    val executor = configurator.createExecutor(ConsoleEmitter(), DoorClosed(true))
+    executor.fire(UnlockEvent())
 
-    fun start(emitter: Emitter, state: DoorState? = null)
-            : IExecutor<Emitter, DoorState, DoorEvent> =
-            config.createExecutor(emitter, state ?: DoorClosed(true))
 }

@@ -10,7 +10,7 @@ class DoorStateMachineTest {
     class History: Emitter {
         val history = ArrayList<String>()
 
-        override fun emit(sound: String) {
+        override fun sound(sound: String) {
             history.add(sound)
         }
 

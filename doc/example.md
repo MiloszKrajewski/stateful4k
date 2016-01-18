@@ -20,7 +20,7 @@ abstract class DoorState(locked: Boolean) {
 }
 ```
 
-and two concrete states, open and close:
+and two concrete states, `DoorOpened` and `DoorClosed`:
 
 ```kotlin
 class DoorClosed(locked: Boolean): DoorState(locked) {}
@@ -29,13 +29,13 @@ class DoorOpened(locked: Boolean): DoorState(locked) {}
 
 Events
 ---
-There is a base (empty) interface for all door events. It could actually be modelled as `abstract class` for a price of some extra typing.
+There is a base (empty) interface for all door events. It could actually be modelled as `abstract class` for a price of some extra typing:
 
 ```kotlin
 interface DoorEvent
 ```
 
-There are four events: open, close, lock and unlock. They all implement `DoorEvent` and carry no data:
+There are four events: `OpenEvent`, `CloseEvent`, `LockEvent` and `UnlockEvent`. They all implement `DoorEvent` and carry no data:
 
 ```kotlin
 class LockEvent : DoorEvent
@@ -69,3 +69,34 @@ Let's create a configurator. We will just say that we are going to configure sta
 ```kotlin
 val configurator = StateMachine.createConfigurator<Emitter, DoorState, DoorEvent>()
 ```
+
+Let's define the rules.
+
+* in any state on unlock event (`event`), if door is locked (`filter`) - make the 'Click!' sound, unlock the door but stay in the same state (`loop`)
+* in any state on lock event, if door is unlocked - make the 'Clack!' sound, lock the door and stay in the same state
+
+```kotlin
+configurator
+    .event(DoorState::class, UnlockEvent::class)
+    .filter { state.locked }
+    .loop { context.sound("Click!"); state.unlock() }
+configurator
+    .event(DoorState::class, LockEvent::class)
+    .filter { !state.locked }
+    .loop { context.sound("Clack!"); state.lock() }
+```
+
+* in closed state on open event if the door is locked - make the 'Click! Click!' but don't change the state (as doors are locked)
+* in closed state on open event if all the other rules are not matched (note lack of `filter`) - make the 'Click!' and 'Squeak!' sound to transition (`goto`) to opened state (or in plain English - open the door)
+
+```kotlin
+configurator
+    .event(DoorClosed::class, OpenEvent::class)
+    .filter { state.locked }
+    .loop { context.sound("Click! Click!") }
+configurator
+    .event(DoorClosed::class, OpenEvent::class)
+    .goto { context.sound("Click! Squeak!"); DoorOpened(false) }
+```
+
+Stop here for the while. There are two kinds of rules in `Stateful`.

@@ -8,27 +8,26 @@ interface Emitter {
     fun sound(sound: String)
 }
 
-open class DoorState(locked: Boolean) {
-    private var _locked = locked
-    val locked: Boolean get() = _locked
+abstract class DoorState(locked: Boolean) {
+    var locked: Boolean = locked; get private set
 
     fun lock() {
-        _locked = true
+        locked = true
     }
 
     fun unlock() {
-        _locked = false
+        locked = false
     }
 }
 
-class DoorClosed(locked: Boolean): DoorState(locked) {}
-class DoorOpened(locked: Boolean): DoorState(locked) {}
+class DoorClosed(locked: Boolean) : DoorState(locked) {}
+class DoorOpened(locked: Boolean) : DoorState(locked) {}
 
 interface DoorEvent
-class LockEvent: DoorEvent
-class UnlockEvent: DoorEvent
-class CloseEvent: DoorEvent
-class OpenEvent: DoorEvent
+class LockEvent : DoorEvent
+class UnlockEvent : DoorEvent
+class CloseEvent : DoorEvent
+class OpenEvent : DoorEvent
 
 open class DoorStateMachine {
     val config = StateMachine

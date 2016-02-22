@@ -1,7 +1,6 @@
 package org.softpark.stateful4k
 
 import org.junit.Test
-import org.softpark.stateful4k.StateMachine
 import org.softpark.stateful4k.extensions.createExecutor
 import org.softpark.stateful4k.extensions.event
 import org.softpark.stateful4k.extensions.state
@@ -167,7 +166,7 @@ class StateMachineTest {
         cfg.event(StateA::class, EventA::class).trigger { visit("Ta1") }.goto { visit("Ga1"); StateB() }
         cfg.event(StateA::class, EventA::class).trigger { visit("Ta2") }.goto { visit("Ga2"); StateB() }
         val exe = cfg.createExecutor(Context(), StateA())
-        assertFailsWith(UnsupportedOperationException::class.java) {
+        assertFailsWith(UnsupportedOperationException::class) {
             exe.fire(EventA())
         }
         assertVisited("") // nothing gets not executed

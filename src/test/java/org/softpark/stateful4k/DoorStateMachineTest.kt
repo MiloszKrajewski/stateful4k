@@ -15,7 +15,7 @@ class DoorStateMachineTest {
         }
 
         fun matches(vararg sounds: String): Boolean {
-            val expected = sounds.toArrayList()
+            val expected = sounds.toList()
             val actual = history
             if (expected.size != actual.size)
                 return false

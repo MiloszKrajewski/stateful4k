@@ -10,8 +10,8 @@ internal class Executor<C, S: Any, E: Any>(
         configuration: IConfigurationProvider<C, S, E>, context: C, state: S):
         IExecutor<C, S, E> {
 
-    private val stateList = configuration.states.map { it.freeze() }.toArrayList()
-    private val eventList = configuration.events.map { it.freeze() }.toArrayList()
+    private val stateList = configuration.states.map { it.freeze() }.toList()
+    private val eventList = configuration.events.map { it.freeze() }.toList()
     private val stateMap = HashMap<Class<out S>, List<StateExecutor<C, S, E>>>()
     private val eventMap = HashMap<Pair<Class<out S>, Class<out E>>, List<EventExecutor<C, S, E>>>()
 
@@ -67,11 +67,11 @@ internal class Executor<C, S: Any, E: Any>(
         val configs = eventMap
                 .getOrPut(eventKey) { cacheEvent(stateType, eventType) }
                 .filter { it.validate(context, state, event) }
-                .toArrayList()
+                .toList()
         val transitions = configs
                 .filter { it.isTransition }
                 .sortedWith(transitionOrder)
-                .toArrayList()
+                .toList()
 
         val firstTransition = transitions.getOrNull(0) ?:
                 throw UnsupportedOperationException(
@@ -97,7 +97,7 @@ internal class Executor<C, S: Any, E: Any>(
         return stateList
                 .filter { stateType.inheritsFrom(it.stateType) }
                 .map { StateExecutor(stateType, it) }
-                .sorted().reversed().toArrayList()
+                .sorted().reversed().toList()
     }
 
     private fun cacheEvent(stateType: Class<out S>, eventType: Class<out E>): List<EventExecutor<C, S, E>> {
@@ -106,6 +106,6 @@ internal class Executor<C, S: Any, E: Any>(
                 .mapIndexed { i, c -> EventExecutor(stateType, eventType, c) to i }
                 .sortedWith(triggerOrder) // preserves declaration order
                 .map { it.first } // but it does not store it
-                .toArrayList()
+                .toList()
     }
 }

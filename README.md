@@ -22,7 +22,7 @@ Rules of state machine are configured by object called `Configurator` but execut
 
 Context, State and Event
 ---
-There are three types you need to provide to `Configurator` - `Context`, `State` and `Event`. While `State` and `Event` are quite obvious, `Context` might need few words of explanation. `Context` is the part of date which all states share. As it is not necessary (this shared data could be passed from one state to another) it helps reduce state bloat. Using previous example, you could store remote server address in `Context`. If you don't need it just use `Any?` and pass `null` to `Executor`.
+There are three types you need to provide to `Configurator` - `Context`, `State` and `Event`. While `State` and `Event` are quite obvious, `Context` might need few words of explanation. `Context` is the data shared by all states. As it is not necessary (this shared data could be passed from one state to another) it helps reduce state bloat. Using previous example, you could store remote server address in `Context`. If you think you don't need it (or your religion prevents you from using shared mutable data) just use `Any?` and pass `null` to `Executor`.
 * **Context** - type of shared data
 * **State** - base class for all states
 * **Event** - base class for all events

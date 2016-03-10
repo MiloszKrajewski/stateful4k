@@ -1,12 +1,9 @@
 package org.softpark.stateful4k
 
 import org.softpark.stateful4k.action.IExecutor
+import org.softpark.stateful4k.data.Emitter
 import org.softpark.stateful4k.extensions.createExecutor
 import org.softpark.stateful4k.extensions.event
-
-interface Emitter {
-    fun sound(sound: String)
-}
 
 abstract class DoorState(locked: Boolean) {
     var locked: Boolean = locked; get private set

@@ -1,102 +1,11 @@
-Example
+Advanced example
 ===
 The goal is not to construct best state machine for the Door Problem, it's just about presenting some available mechanisms.
 
-# Simple case
-![Simple door machine](simple-door-machine.png)
+# Definition
+There are doors and they can be open or closed, but also locked and unlocked. Please note that there are 4 distinctive states: open/unlocked, closed/unlocked, closed/locked and open/locked (the last one is about door being wide-open but with lock in locked position).
 
-# States
-Let's start with possible states. The door can be in two states: the door can be open or closed.
-
-```kotlin
-interface DoorState
-class OpenState: DoorState
-class ClosedState: DoorState
-```
-
-# Events
-The next thing is define possible events. There are two possible events: door can be opened of closed.
-
-```kotlin
-interface DoorEvent
-class OpenEvent: DoorEvent
-class CloseEvent: DoorEvent
-```
-
-# Context
-Context is not really needed for this task, but let's assume context in this example will be the object allowing the door to make sounds. Let's call it `Emitter`:
-
-```kotlin
-class Emitter {
-    fun sound(text: String) = println(text)
-}
-```
-
-# Configuration
-So, let's start configuring our state machine. We need a configurator, and we will use `Emitter` as context, `DoorState` as base class for states and `DoorEvent` as base class for events:
-
-```kotlin
-var configurator =
-    StateMachine.createConfigurator<Emitter, DoorState, DoorEvent>()
-```
-
-# Rules
-Note: as code below uses extension functions you need to add specific import statement (and IDE may not help you with that):
-
-```kotlin
-import org.softpark.stateful4k.extensions.*
-```
-
-Rules are quite simple:
-
-* When doors are closed handle open event
-
-```kotlin
-configurator
-    .event(ClosedState::class, OpenEvent::class)
-    .goto { OpenState() }
-```
-
-* When doors are open handle close event
-
-```kotlin
-configurator
-    .event(OpenState::class, CloseEvent::class)
-    .goto { ClosedState() }
-```
-
-* Stay in the same state in all other cases
-
-```kotlin
-configurator
-    .event(DoorState::class, DoorEvent::class)
-    .loop()
-```
-
-* When doors are opened make the 'Squeak' sound
-
-```kotlin
-configurator
-    .state(OpenState::class)
-    .enter { context.sound("Squeak!") }
-```
-
-* When doors are closed make the 'Bang!' sound
-
-```kotlin
-configurator
-    .state(ClosedState::class)
-    .enter { context.sound("Bang!") }
-```
-
-```kotlin
-configurator.
-
-Definition
----
-There are doors and they can be open or closed, but also locked and unlocked. Please note that there are 4 distinctive states: open/unlocked, closed/unlocked, closed/locked and open/locked (ther last one is about door being wide-open but with lock in locked position).
-
-![DoorMachine](door-state-machine.png)
+![Advanced door machine](advanced-door-machine.png)
 
 States
 ---

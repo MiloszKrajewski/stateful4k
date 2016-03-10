@@ -1,39 +1,18 @@
 package org.softpark.stateful4k
 
 import org.junit.Test
-import java.util.*
+import org.softpark.stateful4k.data.CapturingEmitter
 import kotlin.test.assertTrue
 
 class DoorStateMachineTest {
     val door = DoorStateMachine()
 
-    class History: Emitter {
-        val history = ArrayList<String>()
-
-        override fun sound(sound: String) {
-            history.add(sound)
-        }
-
-        fun matches(vararg sounds: String): Boolean {
-            val expected = sounds.toList()
-            val actual = history
-            if (expected.size != actual.size)
-                return false
-            return expected.zip(actual)
-                    .all { val (x, y) = it; x.equals(y) }
-        }
-
-        override fun toString(): String {
-            return "History(${history.toString()})"
-        }
-    }
-
     fun assertTransition(
             initial: DoorState,
             event: DoorEvent,
             checkState: (DoorState) -> Boolean,
-            checkHistory: (History) -> Boolean) {
-        val history = History()
+            checkHistory: (CapturingEmitter) -> Boolean) {
+        val history = CapturingEmitter()
         val machine = DoorStateMachine().start(history, initial)
         machine.fire(event)
         assertTrue { checkState(machine.state) }

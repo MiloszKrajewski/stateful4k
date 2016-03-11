@@ -1,5 +1,4 @@
-Basic example
-===
+# Basic example
 The goal is not to construct best state machine for the Door Problem, it's just about presenting some available mechanisms.
 
 # Diagram
@@ -126,4 +125,4 @@ and most likely you will see 'Squeak!' printed to console.
 **NOTE**: because `enter` handler is triggered for initial state as well, you'll see 'Bang!' preceding 'Squeak!'. I have mixed feeling about that myself. Maybe it should not trigger `enter` on initial state? What is your opinion?
 
 # Advanced example
-For more details, you can also try [advanced example](advanced-example.md).
+For more details, you can also try advanced example [here](advanced-example.md).

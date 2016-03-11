@@ -22,9 +22,9 @@ class DoorStateMachineTest {
     @Test fun `Cannot open opened doors`() {
         listOf(false, true).forEach { locked ->
             assertTransition(
-                    DoorClosed(locked),
+                    ClosedState(locked),
                     CloseEvent(),
-                    { it is DoorClosed },
+                    { it is ClosedState },
                     { it.matches() })
         }
     }
@@ -32,80 +32,80 @@ class DoorStateMachineTest {
     @Test fun `Cannot close closed doors`() {
         listOf(false, true).forEach { locked ->
             assertTransition(
-                    DoorClosed(locked),
+                    ClosedState(locked),
                     CloseEvent(),
-                    { it is DoorClosed },
+                    { it is ClosedState },
                     { it.matches() })
         }
     }
 
     @Test fun `Cannot open locked doors`() {
         assertTransition(
-                DoorClosed(true),
+                ClosedState(true),
                 OpenEvent(),
-                { it is DoorClosed && it.locked },
+                { it is ClosedState && it.locked },
                 { it.matches("Click! Click!") })
     }
 
     @Test fun `Cannot close locked doors`() {
         assertTransition(
-                DoorOpened(true),
+                OpenState(true),
                 CloseEvent(),
-                { it is DoorOpened && it.locked },
+                { it is OpenState && it.locked },
                 { it.matches("Squeak! Bang!") }
         )
     }
 
     @Test fun `Open unlocked doors`() {
         assertTransition(
-                DoorClosed(false),
+                ClosedState(false),
                 OpenEvent(),
-                { it is DoorOpened && !it.locked },
+                { it is OpenState && !it.locked },
                 { it.matches("Click! Squeak!") }
         )
     }
 
     @Test fun `Close unlocked doors`() {
         assertTransition(
-                DoorOpened(false),
+                OpenState(false),
                 CloseEvent(),
-                { it is DoorClosed && !it.locked },
+                { it is ClosedState && !it.locked },
                 { it.matches("Squeak! Click!") }
         )
     }
 
     @Test fun `Lock closed doors`() {
         assertTransition(
-                DoorClosed(false),
+                ClosedState(false),
                 LockEvent(),
-                { it is DoorClosed && it.locked },
+                { it is ClosedState && it.locked },
                 { it.matches("Clack!") }
         )
     }
 
     @Test fun `Lock opened doors`() {
         assertTransition(
-                DoorOpened(false),
+                OpenState(false),
                 LockEvent(),
-                { it is DoorOpened && it.locked },
+                { it is OpenState && it.locked },
                 { it.matches("Clack!") }
         )
     }
 
     @Test fun `Unlock closed doors`() {
         assertTransition(
-                DoorClosed(true),
+                ClosedState(true),
                 UnlockEvent(),
-                { it is DoorClosed && !it.locked },
+                { it is ClosedState && !it.locked },
                 { it.matches("Click!") }
         )
     }
 
     @Test fun `Unlock opened doors`() {
         assertTransition(
-                DoorOpened(true),
+                OpenState(true),
                 UnlockEvent(),
-                { it is DoorOpened && !it.locked },
+                { it is OpenState && !it.locked },
                 { it.matches("Click!") }
         )
     }

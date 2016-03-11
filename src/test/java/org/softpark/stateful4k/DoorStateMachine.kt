@@ -17,8 +17,8 @@ abstract class DoorState(locked: Boolean) {
     }
 }
 
-class DoorClosed(locked: Boolean) : DoorState(locked) {}
-class DoorOpened(locked: Boolean) : DoorState(locked) {}
+class ClosedState(locked: Boolean) : DoorState(locked) {}
+class OpenState(locked: Boolean) : DoorState(locked) {}
 
 interface DoorEvent
 class LockEvent : DoorEvent
@@ -27,6 +27,7 @@ class CloseEvent : DoorEvent
 class OpenEvent : DoorEvent
 
 open class DoorStateMachine {
+
     val config = StateMachine
             .createConfigurator<Emitter, DoorState, DoorEvent>()
             .apply {
@@ -37,22 +38,22 @@ open class DoorStateMachine {
                         .filter { !state.locked }
                         .loop { state.lock(); context.sound("Clack!") }
 
-                event(DoorClosed::class, OpenEvent::class)
+                event(ClosedState::class, OpenEvent::class)
                         .filter { state.locked }
                         .loop { context.sound("Click! Click!") }
-                event(DoorClosed::class, OpenEvent::class)
-                        .goto { context.sound("Click! Squeak!"); DoorOpened(false) }
+                event(ClosedState::class, OpenEvent::class)
+                        .goto { context.sound("Click! Squeak!"); OpenState(false) }
 
-                event(DoorOpened::class, CloseEvent::class)
+                event(OpenState::class, CloseEvent::class)
                         .filter { state.locked }
                         .loop { context.sound("Squeak! Bang!") }
-                event(DoorOpened::class, CloseEvent::class)
-                        .goto { context.sound("Squeak! Click!"); DoorClosed(false) }
+                event(OpenState::class, CloseEvent::class)
+                        .goto { context.sound("Squeak! Click!"); ClosedState(false) }
 
                 event(DoorState::class, DoorEvent::class).loop()
             }
 
     fun start(emitter: Emitter, state: DoorState? = null)
             : IExecutor<Emitter, DoorState, DoorEvent> =
-            config.createExecutor(emitter, state ?: DoorClosed(true))
+            config.createExecutor(emitter, state ?: ClosedState(true))
 }

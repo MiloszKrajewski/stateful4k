@@ -11,8 +11,8 @@ class QuickDemo {
         val configurator = StateMachine
                 .createConfigurator<ConsoleEmitter, DoorState, DoorEvent>()
                 .apply {
-                    state(DoorOpened::class).enter { context.sound("Squeak!") }
-                    state(DoorClosed::class).enter { context.sound("Bang!") }
+                    state(OpenState::class).enter { context.sound("Squeak!") }
+                    state(ClosedState::class).enter { context.sound("Bang!") }
 
                     event(DoorState::class, UnlockEvent::class)
                             .filter { state.locked }
@@ -21,21 +21,21 @@ class QuickDemo {
                             .filter { !state.locked }
                             .loop { context.sound("Clack!"); state.lock() }
 
-                    event(DoorClosed::class, OpenEvent::class)
+                    event(ClosedState::class, OpenEvent::class)
                             .filter { state.locked }
                             .loop { context.sound("Click! Click!") }
-                    event(DoorClosed::class, OpenEvent::class)
-                            .goto { DoorOpened(false) }
+                    event(ClosedState::class, OpenEvent::class)
+                            .goto { OpenState(false) }
 
-                    event(DoorOpened::class, CloseEvent::class)
+                    event(OpenState::class, CloseEvent::class)
                             .filter { state.locked }
                             .loop { context.sound("Squeak! Bang!") }
-                    event(DoorOpened::class, CloseEvent::class)
-                            .goto { DoorClosed(false) }
+                    event(OpenState::class, CloseEvent::class)
+                            .goto { ClosedState(false) }
 
                     event(DoorState::class, DoorEvent::class).loop()
                 }
-        val executor = configurator.createExecutor(ConsoleEmitter(), DoorClosed(true))
+        val executor = configurator.createExecutor(ConsoleEmitter(), ClosedState(true))
         executor.fire(UnlockEvent())
     }
 }

@@ -131,3 +131,6 @@ configurator.state(DoorState::class).event(DoorEvent::class).loop()
 ```
 
 That's it. You try to control tis door yourself using unit tests in the project.
+
+# Need more?
+There is not more documentation for now, but I recommend reading [unit tests](../src/test/java/org/softpark/stateful4k/StateMachineTest.kt) as they cover large number of features.
